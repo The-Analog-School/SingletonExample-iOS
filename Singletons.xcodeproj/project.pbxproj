@@ -89,15 +89,12 @@
 		7403A35D17EB74F700E964C7 /* Singletons */ = {
 			isa = PBXGroup;
 			children = (
+				74AE5D241891584C00C6262B /* Singletons */,
 				7403A36617EB74F700E964C7 /* AppDelegate.h */,
 				7403A36717EB74F700E964C7 /* AppDelegate.m */,
-				7403A36F17EB74F700E964C7 /* MainStoryboard.storyboard */,
-				746B0545189096A000FB5F91 /* UnsafeSingleton.h */,
-				746B0546189096A000FB5F91 /* UnsafeSingleton.m */,
-				7403A37A17EB750F00E964C7 /* SafeSingleton.h */,
-				7403A37B17EB750F00E964C7 /* SafeSingleton.m */,
 				7403A37217EB74F700E964C7 /* ViewController.h */,
 				7403A37317EB74F700E964C7 /* ViewController.m */,
+				7403A36F17EB74F700E964C7 /* MainStoryboard.storyboard */,
 				7403A35E17EB74F700E964C7 /* Supporting Files */,
 			);
 			path = Singletons;
@@ -115,6 +112,17 @@
 				7403A36D17EB74F700E964C7 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74AE5D241891584C00C6262B /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				746B0545189096A000FB5F91 /* UnsafeSingleton.h */,
+				746B0546189096A000FB5F91 /* UnsafeSingleton.m */,
+				7403A37A17EB750F00E964C7 /* SafeSingleton.h */,
+				7403A37B17EB750F00E964C7 /* SafeSingleton.m */,
+			);
+			name = Singletons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -14,7 +14,7 @@
 {
     static id instance;
     if (!instance) {
-            NSLog(@"Unsafe Singleton is being created");
+            NSLog(@"Unsafe Singleton is being created...");
             instance = [[self alloc] init];
     }
     
@@ -25,7 +25,7 @@
 {
     self = [super init];
     if (self) {
-        // Long running operation (1500ms)
+        // Simulate long running operation (1500ms)
         [NSThread sleepForTimeInterval:1.5];
     }
     
